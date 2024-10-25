@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форми для перевірки</title>
+</head>
+<body>
+
+    <h2>Перевірка текстових полів</h2>
+    <input type="text" id="textField1" placeholder="Текстове поле 1">
+    <input type="text" id="textField2" placeholder="Текстове поле 2">
+    <button onclick="checkTextFields()">Перевірити</button>
+
+    <h2>Перевірка суми чисел</h2>
+    <input type="number" id="numberField1" placeholder="Число 1">
+    <input type="number" id="numberField2" placeholder="Число 2">
+    <button onclick="checkSum()">Перевірити</button>
+
+    <h2>Перевірка наявності слова "JavaScript"</h2>
+    <input type="text" id="textField3" placeholder="Введіть текст">
+    <button onclick="checkJavaScript()">Перевірити</button>
+
+    <h2>Перевірка діапазону числа</h2>
+    <input type="number" id="numberField3" placeholder="Введіть число">
+    <button onclick="checkNumberRange()">Перевірити</button>
+
+    <h2>Перевірка форми</h2>
+    <input type="text" id="nameField" placeholder="Ім'я">
+    <input type="email" id="emailField" placeholder="Email">
+    <input type="password" id="passwordField" placeholder="Пароль">
+    <button onclick="validateForm()">Перевірити</button>
+    <script src="./script.js"></script>
+</body>
+</html>
